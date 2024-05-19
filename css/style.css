@@ -47,7 +47,7 @@ pre {
 .box-contain {
     display: flex;
     margin-top: 1em;
-    width: 800px;
+    width: 300px;
     text-align: center
 }
 
@@ -111,10 +111,10 @@ pre {
         align-items: center;
     }
     .box-brrr {
-        max-width: 400px;
+        max-width: 200px;
     }
     .box-brrr2 {
-        max-width: 400px;
+        max-width: 200px;
     }
     pre {
         font-size: 14px;
