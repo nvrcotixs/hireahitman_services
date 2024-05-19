@@ -47,7 +47,7 @@ pre {
 .box-contain {
     display: flex;
     margin-top: 1em;
-    width: 300px;
+    width: 800px;
     text-align: center
 }
 
@@ -98,7 +98,7 @@ pre {
   }
 
   
-  @media (max-width: 300px) {
+  @media (max-width: 600px) {
     html, body {
         overflow-x: hidden;
     }
@@ -111,10 +111,10 @@ pre {
         align-items: center;
     }
     .box-brrr {
-        max-width: 200px;
+        max-width: 400px;
     }
     .box-brrr2 {
-        max-width: 200px;
+        max-width: 400px;
     }
     pre {
         font-size: 14px;
