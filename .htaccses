@@ -1,4 +1,4 @@
 # Turn ReWrite Engine On
 RewriteEngine on
 # Rewrite for 2.html
-RewriteRule ^2 2.html [NC,L]
+RewriteRule ^2 2/2.html [NC,L]
