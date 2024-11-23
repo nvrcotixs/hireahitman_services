@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hireahtiman.services</title>
+    <link rel="shortcut icon" href=/images/favicon.png>
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body class="center-screen wallpaper">
+<audio id="audio" src="media/sigmateam4.mp3" autoplaystyle="display:none"></audio>
+
+    <div class="box-contain">
+      <div class="box-brrr">
+        <img src="images/carti.webp" class="pfp" alt="PFP">
+        <h3><span style="color: #14006c;">• </span>zay</h3>
+        <p>i sound black</p>
+        <a href="https://x.com/zaywtm" target="_blank" rel="noopener noreferrer"><img src="images/twitter.webp" alt="NA" height="20px"></a>
+        <a href="http://www.discordapp.com/users/1196251113280782376" target="_blank" rel="noopener noreferrer"><img src="images/discord.png" alt="NA" height="20px"></a>
+        <a href="https://guns.lol/fatalwound" target="_blank" rel="noopener noreferrer"><img src="images/gunspfp.png" alt="NA" height="23px"></a>
+      </div>
+      <div class="box-brrr">
+        <img src="images/incest.webp" class="pfp" alt="PFP">
+        <h3><span style="color: #ffffff;">• </span>insjte</h3>
+        <p>special needs</p>
+        <a href="https://steamcommunity.com/id/insjte/" target="_blank" rel="noopener noreferrer"><img src="images/steam.png" alt="Roblox" height="29px"></a>
+        <a href="http://www.discordapp.com/users/1214779859344031785" target="_blank" rel="noopener noreferrer"><img src="images/discord.png" alt="NA" height="25px"></a>
+        <a href="https://www.roblox.com/users/7166139188/profile" target="_blank" rel="noopener noreferrer"><img src="images/roblox.png" alt="NA" height="32px"></a>
+      </div>
+    </div>
+    <div class="text">
+      DISCLAIMER: This is not a hitman service.
+      <br><br>
+  <a href="https://discord.gg/khjypTdWaF" target="_blank">1799, SYNC</a>
+        <br><br>
+        <a href="page2.html">««</a> <a href="">|</a> <a href="page4.html">»»</a>
+    </div>
+
+    
+  
+  <script>
+    (function () {
+        const hoaAudio = document.getElementById('audio');
+
+        function catchHandler() {
+            let inputListener;
+            inputListener = function () {
+                hoaAudio.play();
+                document.removeEventListener('mousedown', inputListener);
+                document.removeEventListener('keydown', inputListener);
+            };
+9
+            document.addEventListener('mousedown', inputListener);
+            document.addEventListener('keydown', inputListener);
+        }
+
+        if (hoaAudio.readyState > 1) {
+            hoaAudio.play().catch(catchHandler);
+        } else {
+            hoaAudio.addEventListener('canplay', function () {
+                hoaAudio.play().catch(catchHandler);
+            });
+        }
+    })();
+</script>
+
+
+</body></html>
