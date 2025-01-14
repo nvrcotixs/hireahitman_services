@@ -12,7 +12,7 @@ body {
 }
 
 .wallpaper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url(https://cdn.discordapp.com/attachments/1309067203714351196/1309818692259024916/94750ea4a5a9998898115f5e227e3cbe.gif?ex=6742f737&is=6741a5b7&hm=7a89f9970fcfa73ac81c9db519e8ff225763e60c57eb3b09341c889240a78d88&);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnh0bGM0YTRhNW1pODBtOXN1bmhudHd5NnI1c2lsdW8wYnF6ZmRtZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgqjmZ870vakg4E/giphy.gif);
     background-size: cover;
     background-position: center;
     height: 100vh;
