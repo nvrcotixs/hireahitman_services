@@ -12,7 +12,7 @@ body {
 }
 
 .wallpaper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHZ1dm84dXhzOHgza2IxbnJnMHc0a3l5d3I4YXEyazBsMjVpOXF5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8kDua7Kz9lKVEv34jD/giphy.gif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWs0eXhxNWo4dnYxNnl3N2VudHI0d3ZjOW1ibTU3M29ucDcxZmJtOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HWe6asn9rVOAvixgqv/giphy.gif);
     background-size: cover;
     background-position: center;
     height: 100vh;
